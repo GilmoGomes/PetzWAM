@@ -1,6 +1,6 @@
 package pages;
 
-import general.Base;
+import general.Base; //importando a base do geral pq o construtor mais simples
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -45,7 +45,7 @@ public class Home extends Base {
     }
 
 
-        //feature -- >Steps -> searcgwhit
+        //feature -- >Steps -> searcgwhit ----> search
 
     public void searchWithEnter(String product){
 
