@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class Base {
-    protected WebDriver driver; //objeto do selenimum webdriver , vulgo bola
+    public WebDriver driver; //objeto do selenimum webdriver , vulgo bola
     //^ ao usar page Factory mudar de pulic para proctected
 
     // v - criar um construtor e iniciarlizar os elementos do PageFactory
